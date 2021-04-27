@@ -1,7 +1,6 @@
 class Matrix:
     def __init__(self, matrix_string):
         '''Normalize the matrix_string into a proper list'''
-        
         rows = matrix_string.split("\n")
         normalized_list = []
         for row in rows:
