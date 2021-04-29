@@ -26,27 +26,21 @@ def parse(markdown):
             # Asterisk is detected for the first time in the line
             if not in_list:
                 in_list = True
-                is_bold = False
-                is_italic = False
                 curr = m.group(1)
                 # Detect and convert bold markdown
                 m1 = re.match('(.*)__(.*)__(.*)', curr)
                 if m1:
                     curr = m1.group(1) + '<strong>' + \
                         m1.group(2) + '</strong>' + m1.group(3)
-                    is_bold = True
                 # Detect and convert italic markdown
                 m1 = re.match('(.*)_(.*)_(.*)', curr)
                 if m1:
                     curr = m1.group(1) + '<em>' + m1.group(2) + \
                         '</em>' + m1.group(3)
-                    is_italic = True
                 # Convert asterisk markdown to HTML tags without the closing </ul>, in case the next line is still the part of the list
                 i = '<ul><li>' + curr + '</li>'
             # In case the next line has asterisk markdown too
             else:
-                is_bold = False
-                is_italic = False
                 curr = m.group(1)
                 # Bold markdown
                 m1 = re.match('(.*)__(.*)__(.*)', curr)
