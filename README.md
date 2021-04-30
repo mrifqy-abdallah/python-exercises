@@ -1,5 +1,6 @@
 # About
-Playing with Python in my spare time in [Exercism.io](https://exercism.io/) - really awesome web!  
+Playing with Python in my spare time in [Exercism.io](https://exercism.io/) - really awesome web!
+
 Exercises are categorized to easy, medium, and hard level. There are 117 existing exercises in total.
 
 ## Table of Contents
@@ -27,6 +28,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [017_rna-transcription](easy/017_rna-transcription) | Given a DNA strand, return its RNA complement (per RNA transcription) |
 | [018_isbn-verifier](easy/018_isbn-verifier/) | Check if the provided string is a valid ISBN-10 |
 | [019_gigasecond](easy/019_gigasecond/) | Given a moment, determine the moment that would be after a gigasecond has passed |
+| [020_bob](easy/020_bob/) | Conversate with Bob, a lackadaisical teenager!
 
 ### Medium level
 - soon!
