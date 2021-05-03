@@ -8,7 +8,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 
 ### Easy level
 | Directory | Description |
-|------------|-------------|
+|-----------|-------------|
 | [001_hello-world](easy/001_hello-world/) | Classic "Hello, World!" introduction :) |
 | [002_two-fer](easy/002_two-fer/) | Given a name, return a string of "One for X, one for me" |
 | [003_raindrops](easy/003_raindrops/) | Convert a number into a string that contains raindrop sounds corresponding to certain potential factors |
@@ -33,7 +33,9 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [022_run-length-encoding](easy/022_run-length-encoding/) | Implement run-length encoding and decoding |
 
 ### Medium level
-- soon!
+| Directory | Description |
+|-----------|-------------|
+| [001_twelve-days](medium/001_twelve-days/) | Output the lyrics to 'The Twelve Days of Christmas' |
 
 ### Hard level
 - soon!
