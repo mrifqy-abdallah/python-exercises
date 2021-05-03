@@ -30,6 +30,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [019_gigasecond](easy/019_gigasecond/) | Given a moment, determine the moment that would be after a gigasecond has passed |
 | [020_bob](easy/020_bob/) | Conversate with Bob, a lackadaisical teenager! |
 | [021_yacht](easy/021_yacht/) | Count a single throw of dice in Yacht |
+| [022_run-length-encoding](easy/022_run-length-encoding/) | Implement run-length encoding and decoding |
 
 ### Medium level
 - soon!
