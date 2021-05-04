@@ -36,6 +36,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | Directory | Description |
 |-----------|-------------|
 | [001_twelve-days](medium/001_twelve-days/) | Output the lyrics to 'The Twelve Days of Christmas' |
+| [002_luhn](medium/002_luhn/) | Given a number determine whether or not it is valid per the Luhn formula |
 
 ### Hard level
 - soon!
