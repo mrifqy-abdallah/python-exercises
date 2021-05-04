@@ -1,9 +1,7 @@
 def recite(start_verse: int, end_verse: int):
     result = []
     for i in range(start_verse, end_verse + 1):
-        print(collect_verse(i))
         result.append(collect_verse(i))
-    print(result)
     return result
 
 
