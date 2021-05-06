@@ -39,6 +39,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [002_luhn](medium/002_luhn/) | Given a number determine whether or not it is valid per the Luhn formula |
 | [003_clock](medium/003_clock/) | Implement a clock that handles times without dates |
 | [004_tournament](medium/004_tournament/) | Make a standings table (made out of strings) of a small football competition |
+| [005_book-store](medium/005_book-store/) | Make a calculator to count the discounts on multiple purchases of 5 popular books |
 
 ### Hard level
 - soon!
