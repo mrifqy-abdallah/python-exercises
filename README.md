@@ -42,4 +42,6 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [005_book-store](medium/005_book-store/) | Make a calculator to count the discounts on multiple purchases of 5 popular books |
 
 ### Hard level
-- soon!
+| Directory | Description |
+|-----------|-------------|
+| [001_rest-api](hard/001_rest-api/) | Implement a RESTful API for tracking IOUs (_Read: I-Owe-You_) |
