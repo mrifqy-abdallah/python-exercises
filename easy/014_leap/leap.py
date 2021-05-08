@@ -6,3 +6,5 @@ def leap_year(year):
             return False
         return True
     return False
+
+    # Alternatively, you can use calendar.isleap() from calendar module
