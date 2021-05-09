@@ -35,6 +35,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [024_armstrong-numbers](easy/024_armstrong-numbers/) | Determine whether a number is an Armstrong number | 
 | [025_rotational-cipher](easy/025_rotational-cipher/) | Create an implementation of the rotational cipher (also called _the Caesar cipher_) |
 | [026_difference-of-squares](easy/026_difference-of-squares/) | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers |
+| [027_anagram](easy/027_anagram/) | Given a word and a list of candidates, select the sublist of anagrams of the given word |
 
 ### Medium level
 | Directory | Description |
