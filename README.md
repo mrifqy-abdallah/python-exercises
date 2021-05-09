@@ -32,6 +32,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [021_yacht](easy/021_yacht/) | Count a single throw of dice in Yacht |
 | [022_run-length-encoding](easy/022_run-length-encoding/) | Implement run-length encoding and decoding |
 | [023_meetup](easy/023_meetup/) | Calculate the date of meetups |
+| [024_armstrong-numbers](easy/024_armstrong-numbers/) | Determine whether a number is an Armstrong number | 
 
 ### Medium level
 | Directory | Description |
