@@ -34,6 +34,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [023_meetup](easy/023_meetup/) | Calculate the date of meetups |
 | [024_armstrong-numbers](easy/024_armstrong-numbers/) | Determine whether a number is an Armstrong number | 
 | [025_rotational-cipher](easy/025_rotational-cipher/) | Create an implementation of the rotational cipher (also called _the Caesar cipher_) |
+| [026_difference-of-squares](easy/026_difference-of-squares/) | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers |
 
 ### Medium level
 | Directory | Description |
