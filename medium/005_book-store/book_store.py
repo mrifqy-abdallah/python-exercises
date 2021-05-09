@@ -1,6 +1,3 @@
-from collections import Counter
-
-
 def total(basket: list):
     final_price = 0
     books_diff = []
