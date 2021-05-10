@@ -37,6 +37,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [026_difference-of-squares](easy/026_difference-of-squares/) | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers |
 | [027_anagram](easy/027_anagram/) | Given a word and a list of candidates, select the sublist of anagrams of the given word |
 | [028_allergies](easy/028_allergies/) | Given a person's allergy score, determine whether or not they're allergic to a given item, and their full list of allergies |
+| [029_series](easy/029_series/) | Given a string of digits, output all the contiguous substrings of length n in that string in the order that they appear |
 
 ### Medium level
 | Directory | Description |
