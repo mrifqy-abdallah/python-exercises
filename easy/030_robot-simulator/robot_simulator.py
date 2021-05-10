@@ -26,10 +26,10 @@ class Robot:
             for movement in movements:
                 if movement == "A":
                     self.x, self.y = compass_dict[self.direction]["A"](self.x, self.y)
-                    self.coordinates = (self.x, self.y)
                 # For movement of 'R' or 'L'
                 else:
                     self.direction = compass_dict[self.direction][movement]
+            self.coordinates = (self.x, self.y)
 
         except KeyError:
             raise KeyError("Invalid move detected! Valid moves are 'R', 'L', and 'A' only.")
