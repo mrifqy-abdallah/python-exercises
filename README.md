@@ -39,8 +39,9 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [028_allergies](easy/028_allergies/) | Given a person's allergy score, determine whether or not they're allergic to a given item, and their full list of allergies |
 | [029_series](easy/029_series/) | Given a string of digits, output all the contiguous substrings of length n in that string in the order that they appear |
 | [030_robot-simulator](easy/030_robot-simulator/) | Write a simulator to locate robot movements |
-| [031_sieve](easy/031_sieve/) | Use the Sieve of Eratosthenes to Find all the primes from 2 up to a given number |
-| [032_atbash-cipher](easy/032_atbash-cipher/) | Implement the atbash cipher, an ancient encryption system created in the Middle East |
+| [031_sieve](easy/031_sieve/) | Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number |
+| [032_atbash-cipher](easy/032_atbash-cipher/) | Implement the Atbash Cipher, an ancient encryption system created in the Middle East |
+| [033_sum-of-multiples](easy/033_sum-of-multiples/) | Given a number, find the sum of all the unique multiples of particular numbers up to but not including that number |
 
 ### Medium level
 | Directory | Description |
