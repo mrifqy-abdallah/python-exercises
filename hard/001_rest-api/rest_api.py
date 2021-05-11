@@ -82,9 +82,12 @@ class RestAPI:
             #               {"name": "Bob", "owes": {}, "owed_by": {"Adam": 0.0}, "balance": 0.0}
             #         where `owes` or `owed_by` contains 0.0 (or less) must be avoided
 
+            lender_is_updated = False
+            borrower_is_updated = False
+
             for user in self.db["users"]:
-                lender_is_updated = False
-                borrower_is_updated = False
+                if lender_is_updated and borrower_is_updated:
+                    break
 
                 if user["name"] == lender:
                     user["balance"] += amount
@@ -127,9 +130,6 @@ class RestAPI:
                         user["owes"][lender] += amount
                     response.append(user)
                     borrower_is_updated = True
-
-                if lender_is_updated and borrower_is_updated:
-                    break
             
             response = {"users": response}
             return json.dumps(response)
