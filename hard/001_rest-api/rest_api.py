@@ -17,14 +17,15 @@ class RestAPI:
             payload = json.loads(payload)
             collect_users = tuple(payload["users"])
             
-            response = {"users": []}
+            response = []
 
             for user in self.db["users"]:
                 if user["name"] in collect_users:
-                    response["users"].append(user)
-                if len(response["users"]) == len(collect_users):
+                    response.append(user)
+                if len(response) == len(collect_users):
                     break
 
+            response = {"users": response}
             return json.dumps(response)
             
 
@@ -56,19 +57,44 @@ class RestAPI:
             except KeyError:
                 print('Payload format must be in:\n\'{"lender":<name of lender>,"borrower":<name of borrower>,"amount":5.25}\'')
 
+            # Now imagine special cases like where self.db has this value,
+            # {"users": [
+            #         {"name": "Adam", "owes": {"Bob": 3.0}, "owed_by": {}, "balance": -3.0},
+            #         {"name": "Bob", "owes": {}, "owed_by": {"Adam": 3.0}, "balance": 3.0}
+            # ]}
+            # And then the payload is one of these:
+            #
+            # Case 1: {"lender": "Adam", "borrower": "Bob", "amount": 2.0}
+            #         This is where the lender owes the borrower by record
+            #         Therefore we need to check this case before assigning the payload to self.db
+            # 
+            # Case 2: {"lender": "Adam", "borrower": "Bob", "amount": 4.0}
+            #         It's just like Case 1, but the borrower wants to owe money MORE THAN the lender owes
+            #         The output of this case MUST be
+            #               {"name": "Adam", "owes": {}, "owed_by": {"Bob": 1.0}, "balance": 1.0},
+            #               {"name": "Bob", "owes": {"Adam": 1.0}, "owed_by": {}, "balance": -1.0}
+            #
+            # Case 3: {"lender": "Adam", "borrower": "Bob", "amount": 3.0}
+            #         It's also like Case 1, but the borrower wants to owe money EXACTLY as the lender owes
+            #         This one case is actually the same as collecting a debt
+            #         The output like this:
+            #               {"name": "Adam", "owes": {"Bob": 0.0}, "owed_by": {}, "balance": 0.0},
+            #               {"name": "Bob", "owes": {}, "owed_by": {"Adam": 0.0}, "balance": 0.0}
+            #         where `owes` or `owed_by` contains 0.0 (or less) must be avoided
+
             for user in self.db["users"]:
                 lender_is_updated = False
                 borrower_is_updated = False
 
                 if user["name"] == lender:
                     user["balance"] += amount
-                    # In case the lender owes the borrower
+                    # In case of Case 1
                     if borrower in user["owes"]:
-                        # Check if the borrower wants to owe money more than the lender owes
+                        # Set value checker
                         check_count = user["owes"][borrower] - amount 
-                        # Is True if the borrower wants to owe money more than the lender owes
+                        # Is True if the payload happens to be just like Case 2 or Case 3
                         if check_count <= 0:
-                            # Avoid the case of record ` "owed_by": {<someone>: 0.0} `
+                            # Set an if to avoid the case of Case 3
                             if check_count != 0:
                                 user["owed_by"][borrower] = -check_count
                             del user["owes"][borrower]
@@ -83,13 +109,13 @@ class RestAPI:
 
                 elif user["name"] == borrower:
                     user["balance"] -= amount
-                    # In case the borrower is owed by the lender
+                    # In case of Case 1
                     if lender in user["owed_by"]:
-                        # Check if the borrower wants to owe money more than owed by the lender
+                        # Set value checker
                         check_count = user["owed_by"][lender] - amount
-                        # Is True if the borrower wants to owe money more than owed by the lender
+                        # Is True if the payload happens to be just like Case 2 or Case 3
                         if check_count <= 0:
-                            # Avoid the case of record ` "owes": {<someone>: 0.0} `
+                            # Set an if to avoid the case of Case 3
                             if check_count != 0:
                                 user["owes"][lender] = -check_count
                             del user["owed_by"][lender]
@@ -100,7 +126,7 @@ class RestAPI:
                             user["owes"][lender] = 0
                         user["owes"][lender] += amount
                     response.append(user)
-                    lender_is_updated = True
+                    borrower_is_updated = True
 
                 if lender_is_updated and borrower_is_updated:
                     break
