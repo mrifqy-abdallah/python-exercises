@@ -99,7 +99,7 @@ class RestAPI:
                         if check_count <= 0:
                             # Set an if to avoid the case of Case 3
                             if check_count != 0:
-                                user["owed_by"][borrower] = -check_count
+                                user["owed_by"][borrower] = abs(check_count)
                             del user["owes"][borrower]
                         else:
                             user["owes"][borrower] = check_count
@@ -120,7 +120,7 @@ class RestAPI:
                         if check_count <= 0:
                             # Set an if to avoid the case of Case 3
                             if check_count != 0:
-                                user["owes"][lender] = -check_count
+                                user["owes"][lender] = abs(check_count)
                             del user["owed_by"][lender]
                         else:
                             user["owed_by"][lender] = check_count
