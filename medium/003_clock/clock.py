@@ -5,8 +5,8 @@ class Clock:
         self.minute = str(self.total_minutes % 60)
 
     def __repr__(self):
-        hour = self.hour if len(self.hour) == 2 else f"0{self.hour}"
-        minute = self.minute if len(self.minute) == 2 else f"0{self.minute}"
+        hour = self.hour.zfill(2)
+        minute = self.minute.zfill(2)
         return f"{hour}:{minute}"
 
     def __eq__(self, other):
