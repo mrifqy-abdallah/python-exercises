@@ -40,6 +40,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [029_series](easy/029_series/) | Given a string of digits, output all the contiguous substrings of length n in that string in the order that they appear |
 | [030_robot-simulator](easy/030_robot-simulator/) | Write a simulator to locate robot movements |
 | [031_sieve](easy/031_sieve/) | Use the Sieve of Eratosthenes to Find all the primes from 2 up to a given number |
+| [032_atbash-cipher](easy/032_atbash-cipher/) | Implement the atbash cipher, an ancient encryption system created in the Middle East |
 
 ### Medium level
 | Directory | Description |
