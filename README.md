@@ -49,6 +49,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [038_space-age](easy/038_space-age/) | Given an age in seconds, calculate how old someone would be on different planets |
 | [039_grains](easy/039_grains/) | Calculate the number of The Wheat and Chessboard Problem |
 | [040_etl](easy/040_etl/) | Do an ETL (Extract-Transform-Load) by changing the format of dictionary data from the old system to a new one |
+| [041_prime-factors](easy/041_prime-factors/) | Compute the prime factors of a given natural number |
 
 ### Medium level
 | Directory | Description |
