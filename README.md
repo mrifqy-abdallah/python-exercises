@@ -48,6 +48,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [037_roman-numerals](easy/037_roman-numerals/) | Convert normal numbers to Roman Numerals |
 | [038_space-age](easy/038_space-age/) | Given an age in seconds, calculate how old someone would be on different planets |
 | [039_grains](easy/039_grains/) | Calculate the number of The Wheat and Chessboard Problem |
+| [040_etl](easy/040_etl/) | Do an ETL (Extract-Transform-Load) by changing the format of dictionary data from the old system to a new one |
 
 ### Medium level
 | Directory | Description |
