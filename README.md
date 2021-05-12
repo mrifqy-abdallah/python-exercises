@@ -47,6 +47,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [036_flatten-array](easy/036_flatten-array/) | Flatten a nested list with all its values except null |
 | [037_roman-numerals](easy/037_roman-numerals/) | Convert normal numbers to Roman Numerals |
 | [038_space-age](easy/038_space-age/) | Given an age in seconds, calculate how old someone would be on different planets |
+| [039_grains](easy/039_grains/) | Calculate the number of The Wheat and Chessboard Problem |
 
 ### Medium level
 | Directory | Description |
