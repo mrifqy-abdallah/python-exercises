@@ -51,6 +51,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [040_etl](easy/040_etl/) | Do an ETL (Extract-Transform-Load) by changing the format of dictionary data from the old system to a new one |
 | [041_prime-factors](easy/041_prime-factors/) | Compute the prime factors of a given natural number |
 | [042_pig-latin](easy/042_pig-latin/) | Implement a program that translates from English to Pig Latin |
+| [043_simple-cipher](easy/043_simple-cipher/) | Implement a simple shift cipher like Caesar and a more secure substitution cipher |
 
 ### Medium level
 | Directory | Description |
