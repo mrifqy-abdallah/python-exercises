@@ -53,6 +53,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [042_pig-latin](easy/042_pig-latin/) | Implement a program that translates from English to Pig Latin |
 | [043_simple-cipher](easy/043_simple-cipher/) | Implement a simple shift cipher like Caesar and a more secure substitution cipher |
 | [044_crypto-square](easy/044_crypto-square/) | Implement the classic method for composing secret messages called a square code |
+| [045_sublist](easy/045_sublist/) | Determine if a list is a sublist or superlist  of the other |
 
 ### Medium level
 | Directory | Description |
