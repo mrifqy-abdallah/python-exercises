@@ -55,6 +55,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [044_crypto-square](easy/044_crypto-square/) | Implement the classic method for composing secret messages called a square code |
 | [045_sublist](easy/045_sublist/) | Determine if a list is a sublist or superlist  of the other |
 | [046_pythagorean-triplet](easy/046_pythagorean-triplet/) | Given an input integer N, find all Pythagorean triplets for which `a + b + c = N` |
+| [047_circular-buffer](easy/047_circular-buffer/) | Create a circular buffer with predefined length |
 
 ### Medium level
 | Directory | Description |
