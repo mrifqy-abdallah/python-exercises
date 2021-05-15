@@ -40,5 +40,4 @@ def meetup(year:int, month:int, week:str, day_of_week:str):
     except Exception:
         raise
         
-    print('anjing')
     return date(year, month, the_date)
