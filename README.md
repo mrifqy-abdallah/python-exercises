@@ -56,6 +56,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [045_sublist](easy/045_sublist/) | Determine if a list is a sublist or superlist  of the other |
 | [046_pythagorean-triplet](easy/046_pythagorean-triplet/) | Given an input integer N, find all Pythagorean triplets for which `a + b + c = N` |
 | [047_circular-buffer](easy/047_circular-buffer/) | Create a circular buffer with predefined length |
+| [048_robot-name](easy/048_robot-name/) | Manage robot's name factory settings |
 
 ### Medium level
 | Directory | Description |
