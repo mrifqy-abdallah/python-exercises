@@ -60,6 +60,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [049_rail-fence-cipher](easy/049_rail-fence-cipher/) | Implement encoding and decoding for the Rail-Fence Cipher |
 | [050_nth-prime](easy/050_nth-prime/) | Given a number n, determine what the n-th prime is |
 | [051_saddle-points](easy/051_saddle-points/) | Detect saddle points in a matrix |
+| [052_beer-song](easy/052_beer-song/) | Recite the lyrics to the old field-trip song of _99 Bottles of Beer on the Wall_ |
 
 ### Medium level
 | Directory | Description |

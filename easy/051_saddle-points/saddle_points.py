@@ -5,7 +5,7 @@ def saddle_points(matrix: list):
         raise ValueError("Matrix is irregular! Each row must be in the same size.")
 
     if matrix:
-        # Transpose matrix to access its columns
+        # Transpose matrix to access it by columns
         transpose_matrix = list(zip(*matrix))
 
         for i, row in enumerate(matrix):
