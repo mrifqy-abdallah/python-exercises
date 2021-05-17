@@ -59,6 +59,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [048_robot-name](easy/048_robot-name/) | Manage robot's name factory settings |
 | [049_rail-fence-cipher](easy/049_rail-fence-cipher/) | Implement encoding and decoding for the Rail-Fence Cipher |
 | [050_nth-prime](easy/050_nth-prime/) | Given a number n, determine what the n-th prime is |
+| [051_saddle-points](easy/051_saddle-points/) | Detect saddle points in a matrix |
 
 ### Medium level
 | Directory | Description |
