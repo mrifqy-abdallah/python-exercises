@@ -1,5 +1,5 @@
 def factors(value: int):
-    if type(value) is not int and value < 1:
+    if type(value) is not int or value < 1:
         raise Exception("Please insert natural number.")
         
     factor_list = []
