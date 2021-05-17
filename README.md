@@ -61,6 +61,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [050_nth-prime](easy/050_nth-prime/) | Given a number n, determine what the n-th prime is |
 | [051_saddle-points](easy/051_saddle-points/) | Detect saddle points in a matrix |
 | [052_beer-song](easy/052_beer-song/) | Recite the lyrics to the old field-trip song of _99 Bottles of Beer on the Wall_ |
+| [053_perfect-numbers](easy/053_perfect-numbers/) | Determine if a number is perfect, abundant, or deficient based on Nicomachus' (60 - 120 CE) classification scheme for natural numbers |
 
 ### Medium level
 | Directory | Description |
