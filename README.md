@@ -62,6 +62,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [051_saddle-points](easy/051_saddle-points/) | Detect saddle points in a matrix |
 | [052_beer-song](easy/052_beer-song/) | Recite the lyrics to the old field-trip song of _99 Bottles of Beer on the Wall_ |
 | [053_perfect-numbers](easy/053_perfect-numbers/) | Determine if a number is perfect, abundant, or deficient based on Nicomachus' (60 - 120 CE) classification scheme for natural numbers |
+| [054_secret-handshake](easy/054_secret-handshake/) | Given a decimal number, convert it to the appropriate sequence of events for a _secret handshake_ |
 
 ### Medium level
 | Directory | Description |
