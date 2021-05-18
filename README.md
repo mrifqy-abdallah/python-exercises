@@ -64,6 +64,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [053_perfect-numbers](easy/053_perfect-numbers/) | Determine if a number is perfect, abundant, or deficient based on Nicomachus' (60 - 120 CE) classification scheme for natural numbers |
 | [054_secret-handshake](easy/054_secret-handshake/) | Given a decimal number, convert it to the appropriate sequence of events for a _secret handshake_ |
 | [055_palindrome-products](easy/055_palindrome-products/) | Detect palindrome products in a given range |
+| [056_matching-brackets](easy/056_matching-brackets/) | Given a string containing brackets, verify if all the brackets are in pairs and match |
 
 ### Medium level
 | Directory | Description |
