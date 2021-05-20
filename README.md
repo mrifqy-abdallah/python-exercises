@@ -68,6 +68,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [057_minesweeper](easy/057_minesweeper/) | Add the mine counts to a completed Minesweeper board |
 | [058_queen-attack](easy/058_queen-attack/) | Indicate whether two queens on a chess board can attack each other |
 | [059_wordy](easy/059_wordy/) | Parse and evaluate simple math word problems returning the answer as an integer |
+| [060_phone-number](easy/060_phone-number/) | Validate and clean up user-entered phone numbers |
 
 ### Medium level
 | Directory | Description |
