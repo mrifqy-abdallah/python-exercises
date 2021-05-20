@@ -66,6 +66,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [055_palindrome-products](easy/055_palindrome-products/) | Detect palindrome products in a given range |
 | [056_matching-brackets](easy/056_matching-brackets/) | Given a string containing brackets, verify if all the brackets are in pairs and match |
 | [057_minesweeper](easy/057_minesweeper/) | Add the mine counts to a completed Minesweeper board |
+| [058_queen-attack](easy/058_queen-attack/) | Indicate whether two queens on a chess board can attack each other |
 
 ### Medium level
 | Directory | Description |
