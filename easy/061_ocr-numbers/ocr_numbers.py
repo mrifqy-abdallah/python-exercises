@@ -36,9 +36,8 @@ def convert(input_grid: 'list[str]') -> str:
         # Numbers in each 4 rows is separated by comma...
         parse_per_number.append(",")
 
-    # ...But delete the comma if there's no number after it
-    if parse_per_number[-1] == ",":
-        parse_per_number.pop()
+    # ...But the last comma in the list is not necessary
+    parse_per_number.pop()
 
     result = [OCR_DICT[i] if i in OCR_DICT else "?" for i in parse_per_number]
     return "".join(result)
