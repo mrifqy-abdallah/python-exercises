@@ -70,6 +70,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [059_wordy](easy/059_wordy/) | Parse and evaluate simple math word problems returning the answer as an integer |
 | [060_phone-number](easy/060_phone-number/) | Validate and clean up user-entered phone numbers |
 | [061_ocr-numbers](easy/061_ocr-numbers/) | Given a grid containing pipes, underscores, and spaces for which forming OCR numbers; determine each number it represents |
+| [062_house](easy/062_house/) | Recite the nursery rhyme _This is the House that Jack Built_ |
 
 ### Medium level
 | Directory | Description |
