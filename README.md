@@ -72,6 +72,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [061_ocr-numbers](easy/061_ocr-numbers/) | Given a grid containing pipes, underscores, and spaces for which forming OCR numbers; determine each number it represents |
 | [062_house](easy/062_house/) | Recite the nursery rhyme _This is the House that Jack Built_ |
 | [063_triangle](easy/063_triangle/) | Determine if a triangle is equilateral, isosceles, or scalene |
+| [064_transpose](easy/064_transpose/) | Transpose a matrix made out of strings |
 
 ### Medium level
 | Directory | Description |
