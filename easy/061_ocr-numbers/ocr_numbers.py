@@ -27,11 +27,10 @@ def convert(input_grid: 'list[str]') -> str:
         for j in range(0, len(input_grid[0]), 3):
             number = []
             # ...and 3 rows
-            for k in range(4):
-                # The fourth row is just an empty row, so it needs to be excluded
-                if (i+k+1) % 4 == 0:
-                    continue
+            # The fourth row is just spaces, so there's no need to check it
+            for k in range(3):
                 number.append(input_grid[i+k][j:j+3])
+                
             parse_per_number.append("".join(number))
 
         # Numbers in each 4 rows is separated by comma...
