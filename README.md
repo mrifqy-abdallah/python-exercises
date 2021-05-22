@@ -69,6 +69,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [058_queen-attack](easy/058_queen-attack/) | Indicate whether two queens on a chess board can attack each other |
 | [059_wordy](easy/059_wordy/) | Parse and evaluate simple math word problems returning the answer as an integer |
 | [060_phone-number](easy/060_phone-number/) | Validate and clean up user-entered phone numbers |
+| [061_ocr-numbers](easy/061_ocr-numbers/) | Given a grid containing pipes, underscores, and spaces for which forming OCR numbers; determine each number it represents |
 
 ### Medium level
 | Directory | Description |
