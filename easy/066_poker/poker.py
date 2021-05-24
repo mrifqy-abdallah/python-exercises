@@ -44,6 +44,6 @@ def count_score(hand: str) -> tuple:
         0
     )
 
-    # Return the score and the cards_value as one tuple in lexicographic order
+    # Return the score and the cards_value as one tuple
     # So the returned value of the example above will be: (3, 14, 7, 4)
     return score, *cards_value
