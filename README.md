@@ -75,6 +75,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [064_transpose](easy/064_transpose/) | Transpose a matrix made out of strings |
 | [065_tree-building](easy/065_tree-building/) | Refactor a working but slow and ugly piece of code that implements the tree building logic |
 | [066_poker](easy/066_poker/) | Pick the best hand(s) from a list of poker hands |
+| [067_zebra-puzzle](easy/067_zebra-puzzle/) | Solve the famous Zebra Puzzle |
 
 ### Medium level
 | Directory | Description |
