@@ -79,6 +79,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [068_rectangles](easy/068_rectangles/) | Count the amount of rectangles in an ASCII diagram |
 | [069_binary-search](easy/069_binary-search/) | Implement a binary search algorithm |
 | [070_list-ops](easy/070_list-ops/) | Implement basic list operations |
+| [071_simple-linked-list](easy/071_simple-linked-list/) | Write a simple linked list implementation that uses Elements and a List |
 
 ### Medium level
 | Directory | Description |
