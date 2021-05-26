@@ -77,6 +77,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [066_poker](easy/066_poker/) | Pick the best hand(s) from a list of poker hands |
 | [067_zebra-puzzle](easy/067_zebra-puzzle/) | Solve the famous Zebra Puzzle |
 | [068_rectangles](easy/068_rectangles/) | Count the amount of rectangles in an ASCII diagram |
+| [069_binary-search](easy/069_binary-search/) | Implement a binary search algorithm |
 
 ### Medium level
 | Directory | Description |
