@@ -81,6 +81,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [070_list-ops](easy/070_list-ops/) | Implement basic list operations |
 | [071_simple-linked-list](easy/071_simple-linked-list/) | Write a simple linked list implementation that uses Elements and a List |
 | [072_linked-list](easy/072_linked-list/) | Implement a doubly linked list |
+| [073_diamond](easy/073_diamond/) | Prints an alphabets sequence starting from A to a given letter in a diamond shape |
 
 ### Medium level
 | Directory | Description |
