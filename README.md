@@ -95,6 +95,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [006_dot-dsl](medium/006_dot-dsl/) | Write a Domain Specific Language similar to the Graphviz dot language |
 | [007_rational-numbers](medium/007_rational-numbers/) | Implement mathematical calculations of rational number |
 | [008_all-your-base](medium/008_all-your-base/) | Convert a number from one base to any other base |
+| [009_grep](medium/009_grep/) | Search for matching lines from text files based on the given keyword and flags |
 
 ### Hard level
 | Directory | Description |
