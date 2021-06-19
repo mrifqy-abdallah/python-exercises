@@ -82,6 +82,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [071_simple-linked-list](easy/071_simple-linked-list/) | Write a simple linked list implementation that uses Elements and a List |
 | [072_linked-list](easy/072_linked-list/) | Implement a doubly linked list |
 | [073_diamond](easy/073_diamond/) | Prints an alphabets sequence starting from A to a given letter in a diamond shape |
+| [074_variable-length-quantity](easy/074_variable-length-quantity/) | Implement variable length quantity encoding and decoding |
 
 ### Medium level
 | Directory | Description |
