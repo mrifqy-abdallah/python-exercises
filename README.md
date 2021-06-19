@@ -94,6 +94,7 @@ Exercises are categorized to easy, medium, and hard level. There are 117 existin
 | [005_book-store](medium/005_book-store/) | Make a calculator to count the discounts on multiple purchases of 5 popular books |
 | [006_dot-dsl](medium/006_dot-dsl/) | Write a Domain Specific Language similar to the Graphviz dot language |
 | [007_rational-numbers](medium/007_rational-numbers/) | Implement mathematical calculations of rational number |
+| [008_all-your-base](medium/008_all-your-base/) | Convert a number from one base to any other base |
 
 ### Hard level
 | Directory | Description |
