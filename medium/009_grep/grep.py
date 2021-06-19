@@ -13,7 +13,7 @@ def grep(pattern: str, flags: str, files: 'list[str]') -> str:
     match_result = []
     ignore_case = False
 
-    if not all(map(lambda x: x in FLAGS, flags)):
+    if not all(map(lambda x: x in FLAGS and flags.count(x) == 1, flags)):
         raise ValueError("Invalid flag(s)")
 
     if "-i" in flags:
